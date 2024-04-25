@@ -434,8 +434,8 @@ schema ApiextensionsCrossplaneIoV1CompositeResourceDefinitionSpecVersionsItems0:
     served: bool
 
 
-    check:
-        len(deprecationWarning) <= 256
+    # check:
+    #     len(deprecationWarning) <= 256
 
 
 schema ApiextensionsCrossplaneIoV1CompositeResourceDefinitionSpecVersionsItems0AdditionalPrinterColumnsItems0:
